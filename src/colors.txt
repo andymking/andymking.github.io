@@ -1,0 +1,9 @@
+UNC Brand Navy: #182849
+UNC Brand Carolina Blue: #84ACCF
+UNC Brand Tile Teal: #4EA4AB
+UNC Brand Gray: #F8F8F8
+
+Black: #000000
+Smoke: #8B94A4
+Lagoon: #507C7F
+White: #FFFFFF

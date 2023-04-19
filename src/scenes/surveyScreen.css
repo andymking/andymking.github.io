@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #primeLogo {
+    /* animation: App-logo-spin infinite 2s linear; */
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#color-nav {
+  background-color: #182849;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: #4EA4AB;
+}
+
+#question-card {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  border: solid;
+  border-color: #4EA4AB;
+}
+
+* {
+  font-family: 'Lora';
+}
+#questions-guide {
+  font-size: 15px;
+}
+
+.even-row {
+  background-color: #bfe1ff;
+  display: flex; align-items: center;
+}
+
+.odd-row {
+  display: flex; align-items: center;
+}
+
+.question-col {
+  display: block;
+}
+
+body {
+  font-family: 'Lora';
+}
+
+.rounded-circle.pageNav {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.rounded-circle.pageNav.active {
+  background-color: #4EA4AB !important;
+  border-color: #4EA4AB !important;
+}
+
+.rounded-circle.pageNav:hover {
+  background-color: #507C7F !important;
+}
+
+.rounded-circle.pageNav:active {
+  background-color: #42696b !important;
+}
+
+#questionNavContainer {
+  display: flex;
+  width: 100%;
+  max-width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#nextButton {
+  background-color: #4EA4AB !important;
+  border-color: #4EA4AB !important;
+}
+
+#nextButton:hover {
+  background-color: #507C7F !important;
+}
+
+#submitButton {
+  background-color: #4EA4AB !important;
+  border-color: #507C7F !important;
+}
+
+#submitButton:hover {
+  background-color: #507C7F !important;
+}
+
+/* #nextButton:active {
+  background-color: green !important;
+} */
+
+#questionCardContainer {
+  display: block;
+  max-width: 80%;
+  min-width: none;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.mostLeastCol {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .mostLeastCol {
+    font-size: 1.0rem;
+  }
+  #questionCardContainer {
+    max-width: 100%;
+  }
+}
+
+.radio-large .form-check-input[type="radio"] {
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: 0.2em;
+  margin-right: 0.5em;
+}
